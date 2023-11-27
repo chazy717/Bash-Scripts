@@ -1,0 +1,2 @@
+#Install from the apt-get repository
+sudo apt-get install git
