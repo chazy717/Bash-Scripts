@@ -1,0 +1,5 @@
+#Set permissions using 'chmod'
+chmod 644 example_file.txt
+#    - '6' (owner): Read and write permissions.
+#    - '4' (group): Read-only permission.
+#    - '4' (others): Read-only permission.

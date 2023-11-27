@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# This command uses 'touch' to create a new file and then adds a comment to the file.
+
+# Usage:
+# Run this script to create a file named 'example_comment.txt' and add a comment to it.
+
+# Command:
+touch example_comment.txt && echo "# This is a comment in the file." >> example_comment.txt
