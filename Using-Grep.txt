@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Script to search for a specific string in files
+
+# Directory to search
+search_dir="~/search_directory"
+
+# String to search for
+search_string="example"
+
+# Use grep to search for the string in all text files
+grep -r "$search_string" $search_dir
+
+echo "Search complete!"

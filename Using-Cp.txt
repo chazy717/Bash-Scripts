@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Script to copy files from one directory to another
+
+# Source and destination directories
+source_dir="~/source_directory"
+destination_dir="~/destination_directory"
+
+# Copy all text files from source to destination
+cp $source_dir/*.txt $destination_dir
+
+echo "Files copied successfully!"

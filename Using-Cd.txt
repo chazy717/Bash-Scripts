@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Script to change the working directory
+
+# Target directory
+target_dir="~/target_directory"
+
+# Change to the target directory
+cd $target_dir
+
+# Display the current working directory
+echo "Current directory: $(pwd)"

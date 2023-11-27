@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Script to move files from one directory to another
+
+# Source and destination directories
+source_dir="~/source_directory"
+destination_dir="~/destination_directory"
+
+# Move all text files from source to destination
+mv $source_dir/*.txt $destination_dir
+
+echo "Files moved successfully!"

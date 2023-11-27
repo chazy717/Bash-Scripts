@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Script to display basic information about a file
+
+# Target file
+target_file="~/path/to/file.txt"
+
+# Display file type and size
+file_type=$(file -b --mime-type $target_file)
+file_size=$(du -h $target_file | cut -f1)
+
+echo "File Type: $file_type"
+echo "File Size: $file_size"
