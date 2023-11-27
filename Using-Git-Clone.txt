@@ -1,0 +1,2 @@
+# Clone the Git repository
+git clone https://github.com/example/repo.git ~/projects

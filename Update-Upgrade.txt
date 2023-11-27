@@ -1,3 +1,4 @@
 #!/bin/bash
 
+#Script that will update & upgrade automatically selecting 'yes'
 sudo apt-get update -y && apt-get upgrade -y && apt-get dist-upgrade -y
